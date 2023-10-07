@@ -3,4 +3,4 @@ param (
     [String]$alias
 )
 
-./target/release/smart_cd.exe remove $alias
+smart_cd.exe remove $alias
